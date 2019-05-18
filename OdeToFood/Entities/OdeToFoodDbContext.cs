@@ -8,7 +8,7 @@ namespace OdeToFood.Entities
     {
         public OdeToFoodDbContext(DbContextOptions options) : base(options)
         {
-
+            
         }
 
         public DbSet<Restaurant> Restaurants { get; set; }
